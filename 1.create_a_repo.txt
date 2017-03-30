@@ -1,0 +1,17 @@
+$ cd <location without <> > 
+
+$ git init
+
+$ ls -la //for seeing hidden folders,if any
+
+$ git add file_name //add the current changes of file file_name to staging
+
+$ git add . //add the whole directory chnages to staging(no delete files)
+
+$ git add -A //add all new, modified and deleted files to staging
+
+$ git commit -m "Describe the changes in your first commit"
+
+$ git commit -am "message" //add all changes to staging and commit them with message
+
+$ git push origin master
