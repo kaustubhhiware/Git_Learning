@@ -7,7 +7,7 @@ git fetch upstream
 git checkout master
 //go to your master branch
 
-git merge upstrem/master
+git merge upstream/master
 //keep your changes and sync your local repo with the cuurent updated repo
 
 git push <remote_name> <branch_name>
